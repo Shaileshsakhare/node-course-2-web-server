@@ -12,6 +12,7 @@ app.use((req,res,next)=>{
     next();
 });
 
+
 // app.use((req,res)=>{
 //     res.render('maintainance.hbs',{
 //         pageTitle : 'Maintainance'
