@@ -42,9 +42,9 @@ app.get('/about',(req,res)=>{
     });
 });
 
-app.get('/project',(req,res)=>{
-    res.render('project.hbs',{
-        projectPageTitle : "Portfolio Title Here"
+app.get('/projects',(req,res)=>{
+    res.render('projects.hbs',{
+        pageTitle : "Projects"
     });
 });
 
