@@ -42,6 +42,12 @@ app.get('/about',(req,res)=>{
     });
 });
 
+app.get('/project',(req,res)=>{
+    res.render('project.hbs',{
+        projectPageTitle : "Portfolio Title Here"
+    });
+});
+
 app.listen(port,()=>{
     console.log(`server is listening on ${port}`);
 })
